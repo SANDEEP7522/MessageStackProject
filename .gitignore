@@ -1,0 +1,68 @@
+# Node.js dependencies
+node_modules/
+
+# npm package lock file
+package-lock.json
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# dotenv environment variables file
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+log/
+
+# Build directories
+build/
+dist/
+coverage/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Dependency directories (if any)
+jspm_packages/
+
+# Optional eslint file
+.eslintcache
+
+# Test coverage
+coverage/
+
+# TypeScript build output
+*.tsbuildinfo
+
+# NPM package publish
+npm-debug.log*
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Ignore Yarn's cache
+.yarn-cache/
+.yarn/
+
+# Ignore dependency directories for Docker container use (optional)
+.docker/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore test reports
+/test-reports/
